@@ -191,3 +191,10 @@ p {
 .fa-youtube-square {
   margin-right: 10px;
 }
+
+/* media   queries */
+
+/* mobile devices */
+
+@media only screen and (max-width: 688px) {
+}
