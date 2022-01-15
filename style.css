@@ -81,17 +81,11 @@ hr {
   margin: 0 auto;
   margin-top: 80px;
 }
-.article {
-  display: flex;
-}
+
 h2 {
   text-align: center;
 }
 
-.article2 {
-  display: flex;
-  margin-top: 30px;
-}
 .fa-star,
 .fa-star-half-alt {
   color: orange;
@@ -114,6 +108,11 @@ h2 {
   background-color: rgb(243, 238, 237);
   width: 330px;
   height: 480px;
+  margin-top: 30px;
+}
+.article {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
 }
 .digit {
   font-size: small;
@@ -199,7 +198,6 @@ p {
 @media only screen and (max-width: 688px) {
   .sec1,
   .article,
-  .article2,
   .extra-part {
     grid-template-columns: repeat(1, 1fr);
     flex-direction: column;
@@ -210,17 +208,14 @@ p {
 /* tablet devices */
 
 @media only screen and (min-width: 688px) and (max-width: 992px) {
-  .sec1,
-  .article,
-  .article2,
-  .extra-par {
+  .article {
     grid-template-columns: repeat(2, 1fr);
     flex-direction: column;
     width: 100%;
   }
 }
 
-@media only screen and (min-width: 992px) and (max-width: 1312) {
+@media only screen and (min-width: 992px) and (max-width: 1312px) {
   .sec1,
   .article,
   .article2,
@@ -228,5 +223,6 @@ p {
     grid-template-columns: repeat(3, 1fr);
     flex-direction: column;
     width: 100%;
+    overflow: hidden;
   }
 }
