@@ -26,6 +26,8 @@ header {
   display: flex;
   justify-content: space-between;
   padding: 50px;
+  width: 960px;
+  margin: 0 auto;
 }
 /* section1 */
 
