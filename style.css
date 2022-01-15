@@ -37,7 +37,7 @@ header {
 .journey-details {
   font-family: "Lato", sans-serif;
 }
-span {
+.button {
   background-color: rgb(241, 46, 144);
   margin-right: 20px;
   padding: 10px;
@@ -60,4 +60,73 @@ span {
   width: 960px;
   display: flex;
   margin: 0 auto;
+}
+/* hr */
+
+hr {
+  width: 960px;
+}
+
+/* logo */
+.logo {
+  width: 960px;
+  margin: 0 auto;
+}
+
+/* section2 */
+.sec2 {
+  width: 960px;
+  margin: 0 auto;
+  margin-top: 80px;
+}
+.article {
+  display: flex;
+}
+h2 {
+  text-align: center;
+}
+
+.article2 {
+  display: flex;
+  margin-top: 30px;
+}
+.fa-star,
+.fa-star-half-alt {
+  color: orange;
+  font-size: small;
+}
+.popular-text,
+.digit {
+  font-family: "Lato", sans-serif;
+  opacity: 60%;
+  font-weight: bold;
+}
+.popular-text {
+  width: 200px;
+  height: 20px;
+}
+.popular-child {
+  margin-right: 30px;
+  box-shadow: 4px 4px 12px rgb(172, 162, 162);
+  border-radius: 5px;
+  background-color: rgb(243, 238, 237);
+  width: 330px;
+  height: 480px;
+}
+.digit {
+  font-size: small;
+}
+.child-img {
+  width: 280px;
+  height: 246px;
+  padding: 15px;
+}
+
+/* see more */
+
+.see-button {
+  color: rgb(241, 46, 144);
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+  margin-left: 870px;
 }
