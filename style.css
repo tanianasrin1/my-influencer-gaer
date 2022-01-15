@@ -1,9 +1,9 @@
 /* google fonts */
-@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Roboto:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
 
 body {
-  font-family: "Roboto", sans-serif;
-  font-family: "Roboto Condensed", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 /* header */
 .header-title {
@@ -26,4 +26,31 @@ header {
   display: flex;
   justify-content: space-between;
   padding: 50px;
+}
+/* section1 */
+
+.journey-title {
+  font-size: 3em;
+  font-weight: bolder;
+}
+
+.journey-details {
+  font-family: "Lato", sans-serif;
+}
+span {
+  background-color: rgb(241, 46, 144);
+  margin-right: 20px;
+  padding: 10px;
+  color: white;
+  border-radius: 15px;
+}
+
+.sec1-img {
+  width: 440px;
+  height: 410px;
+}
+.sec1 {
+  width: 960px;
+  display: flex;
+  margin: 0 auto;
 }
