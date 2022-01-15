@@ -216,13 +216,9 @@ p {
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1312px) {
-  .sec1,
-  .article,
-  .article2,
-  .extra-part {
+  .article {
     grid-template-columns: repeat(3, 1fr);
     flex-direction: column;
     width: 100%;
-    overflow: hidden;
   }
 }
