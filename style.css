@@ -124,11 +124,70 @@ h2 {
   padding: 15px;
 }
 
-/* see more */
+/* see more start*/
 
 .see-button {
   color: rgb(241, 46, 144);
   font-family: "Lato", sans-serif;
   font-weight: bold;
   margin-left: 870px;
+}
+
+/* see more end */
+
+/* section3 start */
+.sec3 {
+  width: 960px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+.extra-part {
+  display: flex;
+  font-family: "Lato", sans-serif;
+}
+
+.extra-part-detalis {
+  margin-left: 60px;
+}
+
+/* section3 end */
+
+/* footer */
+
+footer {
+  margin-top: 90px;
+}
+
+.footer-class {
+  width: 100%;
+  height: 230px;
+  background-color: rgb(20, 8, 59);
+  color: white;
+  text-align: center;
+  padding-top: 50px;
+}
+.footer-title {
+  font-family: "Lato", sans-serif;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+p {
+  font-family: "Lato", sans-serif;
+  font-size: small;
+  line-height: 20px;
+}
+
+.footer-icon {
+  margin-right: 10px;
+  padding: 10px;
+}
+.fa-instagram-square {
+  margin-right: 10px;
+}
+.fa-twitter-square {
+  margin-right: 10px;
+}
+.fa-youtube-square {
+  margin-right: 10px;
 }
